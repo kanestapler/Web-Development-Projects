@@ -1,0 +1,52 @@
+body {
+  background: #232323;
+  margin: 0;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  background: steelblue;
+  margin: 0;
+  padding: 15px 0;
+}
+
+button {
+  border: none;
+  background: none;
+  outline: none;
+  height: 100%;
+}
+
+button:hover {
+  background: steelblue;
+}
+
+.container {
+  max-width: 50%;
+  margin: 20px auto;
+}
+
+.square {
+  background-color: purple;
+  width: 30%;
+  margin: 1.33%;
+  float: left;
+  padding-bottom: 30%;
+  border-radius: 20%;
+}
+
+#game-menu{
+  background: white;
+  text-align: center;
+  height: 35px;
+}
+
+#status-message {
+  display: inline-block;
+  width: 20%;
+}
+
+#color-display {
+  font-size: 2em;
+}
