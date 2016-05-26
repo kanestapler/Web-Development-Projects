@@ -50,3 +50,7 @@ button:hover {
 #color-display {
   font-size: 2em;
 }
+
+.selectedButton {
+  background: steelblue;
+}
